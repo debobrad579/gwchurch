@@ -49,7 +49,9 @@ export function Navbar() {
               <Button variant="ghost">GIVE BACK</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="center">
-              <DropdownMenuItem>ONLINE GIVING</DropdownMenuItem>
+              <a href="https://www.canadahelps.org/en/dn/7574" target="blank">
+                <DropdownMenuItem>ONLINE GIVING</DropdownMenuItem>
+              </a>
               <DropdownMenuItem>ETRANSFER</DropdownMenuItem>
               <DropdownMenuItem>PRE-AUTHORIZED GIVING</DropdownMenuItem>
               <DropdownMenuItem>MINISTRY INVOLVEMENT</DropdownMenuItem>

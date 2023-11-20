@@ -1,9 +1,7 @@
 import { Separator } from "@/components/ui/separator"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import { Facebook, Instagram, Music, Youtube } from "lucide-react"
 import { SocialButton } from "./components/SocialButton"
-import { FooterSection } from "./components/FooterSection"
+import { NewsletterForm } from "./components/NewsletterForm"
 
 export function Footer() {
   return (
@@ -11,36 +9,36 @@ export function Footer() {
       <Separator />
       <footer className="px-20 py-6 bg-navbar text-navbar-foreground">
         <div className="flex justify-between gap-8 mb-6">
-          <FooterSection title="ABOUT US">
-            <p>
-              Gateway is an official church of The Christian & Missionary
-              Alliance in Canada.
-            </p>
-            <p>
-              What we believe determines what we value, and what we value
-              defines how we live.
-            </p>
-            <p>Click here to learn more about our core beliefs and values.</p>
-          </FooterSection>
+          <div className="flex-1">
+            <h3 className="mb-10 text-2xl">ABOUT US</h3>
+            <div className="text-muted-foreground space-y-4">
+              <p>
+                Gateway is an official church of The Christian & Missionary
+                Alliance in Canada.
+              </p>
+              <p>
+                What we believe determines what we value, and what we value
+                defines how we live.
+              </p>
+              <p>Click here to learn more about our core beliefs and values.</p>
+            </div>
+          </div>
           <Separator orientation="vertical" className="h-auto" />
-          <FooterSection title="CONTACT US">
-            <p>905-765-5407</p>
-            <p>
-              15 Haldimand Rd. 66 <br /> Caledonia, ON. N3W 1N7
-            </p>
-            <p>info@gw.church</p>
-          </FooterSection>
+          <div className="flex-1">
+            <h3 className="mb-10 text-2xl">ABOUT US</h3>
+            <div className="text-muted-foreground space-y-4">
+              <p>905-765-5407</p>
+              <p>
+                15 Haldimand Rd. 66 <br /> Caledonia, ON. N3W 1N7
+              </p>
+              <p>info@gw.church</p>
+            </div>
+          </div>
           <Separator orientation="vertical" className="h-auto" />
-          <FooterSection title="SUBSCRIBE TO OUR NEWSLETTER">
-            <Input placeholder="Name" />
-            <Input placeholder="Email" type="email" />
-            <Button
-              variant="secondary"
-              className="w-full text-muted-foreground"
-            >
-              Submit Now
-            </Button>
-          </FooterSection>
+          <div className="flex-1">
+            <h3 className="mb-10 text-2xl">SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <NewsletterForm />
+          </div>
         </div>
         <div className="flex justify-around gap-4 mb-6">
           <p>
