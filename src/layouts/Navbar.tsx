@@ -13,9 +13,9 @@ export function Navbar() {
   return (
     <>
       <nav className="flex items-center justify-between px-20 py-6 bg-navbar text-navbar-foreground">
-        <h1 className="text-xl text-navbar-foreground">
+        <a href="#">
           <img src={logo} className="h-20" />
-        </h1>
+        </a>
         <div className="flex gap-4 absolute left-2/4 -translate-x-2/4">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -34,7 +34,7 @@ export function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="center">
               <DropdownMenuItem>SERMONS</DropdownMenuItem>
-              <DropdownMenuItem>EVENTS / CALENDAR</DropdownMenuItem>
+              <DropdownMenuItem>CALENDAR / EVENTS</DropdownMenuItem>
               <DropdownMenuItem>ADULTS</DropdownMenuItem>
               <DropdownMenuItem>YOUTH</DropdownMenuItem>
               <DropdownMenuItem>YOUNG ADULTS</DropdownMenuItem>

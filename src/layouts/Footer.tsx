@@ -25,7 +25,7 @@ export function Footer() {
           </div>
           <Separator orientation="vertical" className="h-auto" />
           <div className="flex-1">
-            <h3 className="mb-10 text-2xl">ABOUT US</h3>
+            <h3 className="mb-10 text-2xl">CONTACT US</h3>
             <div className="text-muted-foreground space-y-4">
               <p>905-765-5407</p>
               <p>

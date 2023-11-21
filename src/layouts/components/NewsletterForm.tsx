@@ -63,7 +63,7 @@ export function NewsletterForm() {
           className="text-muted-foreground w-full"
           type="submit"
         >
-          Submit Now
+          Submit
         </Button>
       </form>
     </Form>
