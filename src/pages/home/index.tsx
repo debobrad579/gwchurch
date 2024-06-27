@@ -1,8 +1,8 @@
 import { Church, Tv2 } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
-import kids from "@/assets/gateway-kids.png"
-import youth from "@/assets/gateway-youth.png"
 import { HomeCard } from "./components/HomeCard"
+import KidsLogo from "@/assets/kids-logo.svg?react"
+import YouthLogo from "@/assets/youth-logo.svg?react"
 
 export function Home() {
   return (
@@ -72,7 +72,7 @@ export function Home() {
         </HomeCard>
         <HomeCard title="FOR YOUR FAMILY">
           <a href="#" className="col-span-1">
-            <img src={kids} />
+            <KidsLogo />
           </a>
           <div className="col-span-2">
             <a href="#" className="text-2xl">
@@ -81,7 +81,7 @@ export function Home() {
           </div>
           <Separator className="col-span-3" />
           <a href="#" className="col-span-1">
-            <img src={youth} />
+            <YouthLogo />
           </a>
           <div className="col-span-2">
             <a href="#" className="text-2xl">

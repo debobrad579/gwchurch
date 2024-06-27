@@ -7,14 +7,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Separator } from "@/components/ui/separator"
-import logo from "@/assets/logo.png"
+import Logo from "@/assets/gateway-logo.svg?react"
 
 export function Navbar() {
   return (
     <>
       <nav className="flex items-center justify-between px-20 py-6 bg-navbar text-navbar-foreground">
         <a href="#">
-          <img src={logo} className="h-20" />
+          <Logo className="h-20" />
         </a>
         <div className="flex gap-4 absolute left-2/4 -translate-x-2/4">
           <DropdownMenu>
