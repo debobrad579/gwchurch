@@ -9,7 +9,7 @@ export function SocialButton({
   children: ReactElement
 }) {
   return (
-    <Button variant="secondary" className="rounded-full w-10 h-10">
+    <Button className="rounded-full w-10 h-10 bg-navbar-muted text-navbar-foreground hover:text-navbar-foreground hover:bg-navbar-muted-foreground/30">
       <a href={href} target="_blank">
         {children}
       </a>

@@ -42,7 +42,12 @@ export function NewsletterForm() {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="Name" {...field} autoComplete="off" />
+                <Input
+                  placeholder="Name"
+                  {...field}
+                  autoComplete="off"
+                  className="border-navbar-muted bg-navbar placeholder:text-navbar-muted-foreground focus-visible:rign-navbar-muted-foreground"
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -54,7 +59,12 @@ export function NewsletterForm() {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="Email" {...field} autoComplete="off" />
+                <Input
+                  placeholder="Email"
+                  {...field}
+                  autoComplete="off"
+                  className="border-navbar-muted bg-navbar placeholder:text-navbar-muted-foreground focus-visible:rign-navbar-muted-foreground"
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -62,7 +72,7 @@ export function NewsletterForm() {
         />
         <Button
           variant="secondary"
-          className="text-muted-foreground w-full"
+          className="bg-navbar-muted text-navbar-foreground hover:text-navbar-foreground hover:bg-navbar-muted-foreground/30 w-full"
           type="submit"
         >
           Submit
