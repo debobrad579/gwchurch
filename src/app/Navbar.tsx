@@ -25,7 +25,7 @@ export function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="center">
               <DropdownMenuItem asChild>
-                <a href="/contact">OUR TEAM</a>
+                <a href="/team">MEET OUR TEAM</a>
               </DropdownMenuItem>
               <DropdownMenuItem>CONNECTING CARD</DropdownMenuItem>
               <DropdownMenuItem>JESUS</DropdownMenuItem>

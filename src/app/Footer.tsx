@@ -1,5 +1,13 @@
 import { Separator } from "@/components/ui/separator"
-import { Facebook, Instagram, Music, Youtube } from "lucide-react"
+import {
+  Facebook,
+  Instagram,
+  Music,
+  Youtube,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react"
 import { SocialButton } from "./SocialButton"
 import { NewsletterForm } from "./NewsletterForm"
 
@@ -20,7 +28,13 @@ export function Footer() {
                 What we believe determines what we value, and what we value
                 defines how we live.
               </p>
-              <p>Click here to learn more about our core beliefs and values.</p>
+              <p>
+                Click{" "}
+                <a href="https://www.cmacan.org/about/" className="underline">
+                  here
+                </a>{" "}
+                to learn more about our core beliefs and values.
+              </p>
             </div>
           </div>
           <Separator
@@ -30,11 +44,27 @@ export function Footer() {
           <div className="flex-1">
             <h3 className="mb-10 text-2xl">CONTACT US</h3>
             <div className="text-muted-foreground space-y-4">
-              <p>905-765-5407</p>
-              <p>
-                15 Haldimand Rd. 66 <br /> Caledonia, ON. N3W 1N7
-              </p>
-              <p>info@gw.church</p>
+              <a
+                className="group flex items-center gap-4"
+                href="tel:+19057655407"
+              >
+                <Phone className="group-hover:animate-shake min-w-12 min-h-12" />
+                <p>905-765-5407</p>
+              </a>
+              <a
+                className="group flex items-center gap-4"
+                href="https://www.google.ca/maps/place/15+Haldimand+66,+Caledonia,+ON+N3W+1N8/@43.0898938,-79.9454549,16z/data=!3m1!4b1!4m6!3m5!1s0x882c8dbd35cb925b:0xee42be52170d255a!8m2!3d43.0898899!4d-79.94288!16s%2Fg%2F11g0km0qhs?entry=ttu"
+              >
+                <MapPin className="group-hover:animate-shake min-w-12 min-h-12" />
+                <p>15 Haldimand Rd. 66 Caledonia, ON N3W 1N7</p>
+              </a>
+              <a
+                className="group flex items-center gap-4"
+                href="mailto:info@gw.church"
+              >
+                <Mail className="group-hover:animate-shake min-w-12 min-h-12" />
+                <p>info@gw.church</p>
+              </a>
             </div>
           </div>
           <Separator

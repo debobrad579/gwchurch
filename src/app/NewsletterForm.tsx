@@ -75,7 +75,7 @@ export function NewsletterForm() {
           className="bg-navbar-muted text-navbar-foreground hover:text-navbar-foreground hover:bg-navbar-muted-foreground/30 w-full"
           type="submit"
         >
-          Submit
+          Subscribe
         </Button>
       </form>
     </Form>
