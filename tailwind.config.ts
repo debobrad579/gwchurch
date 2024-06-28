@@ -67,6 +67,9 @@ const config = {
         gblue: {
           DEFAULT: "hsl(var(--gblue))",
         },
+        gyellow: {
+          DEFAULT: "hsl(var(--gyellow))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

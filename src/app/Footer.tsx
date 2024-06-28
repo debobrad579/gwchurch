@@ -82,16 +82,25 @@ export function Footer() {
           </p>
           <div></div>
           <div className="flex gap-4 absolute left-2/4 -translate-x-2/4">
-            <SocialButton href="https://www.facebook.com/gatewaychurchcaledonia/">
+            <SocialButton
+              href="https://www.facebook.com/gatewaychurchcaledonia/"
+              inFooter
+            >
               <Facebook />
             </SocialButton>
-            <SocialButton href="https://www.instagram.com/gw.church/">
+            <SocialButton href="https://www.instagram.com/gw.church/" inFooter>
               <Instagram />
             </SocialButton>
-            <SocialButton href="https://itunes.apple.com/us/podcast/gateway-caledonia-podcast/id905722237?mt=2">
+            <SocialButton
+              href="https://itunes.apple.com/us/podcast/gateway-caledonia-podcast/id905722237?mt=2"
+              inFooter
+            >
               <Music />
             </SocialButton>
-            <SocialButton href="https://www.youtube.com/channel/UCUja5-byoIsVqaSxd3oOWNg">
+            <SocialButton
+              href="https://www.youtube.com/channel/UCUja5-byoIsVqaSxd3oOWNg"
+              inFooter
+            >
               <Youtube />
             </SocialButton>
           </div>

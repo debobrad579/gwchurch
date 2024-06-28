@@ -1,5 +1,4 @@
 import { Separator } from "@/components/ui/separator"
-import { Mail, MapPin, Phone } from "lucide-react"
 import { TeamMember } from "./TeamMember"
 import steve from "@/img/steve.webp"
 import kendra from "@/img/kendra.webp"
@@ -18,7 +17,7 @@ import abbey from "@/img/abbey.webp"
 export default function ContactPage() {
   return (
     <div className="text-center w-full">
-      <h1 className="text-4xl font-bold">Meet Our Team</h1>
+      <h1 className="text-6xl font-bold">Meet Our Team</h1>
       <Separator className="my-8" />
       <div className="flex flex-wrap gap-8 justify-center">
         <TeamMember

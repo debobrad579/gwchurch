@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Separator } from "@/components/ui/separator"
 import Logo from "@/svg/gateway-logo.svg"
+import Link from "next/link"
 
 export function Navbar() {
   return (
@@ -25,9 +26,16 @@ export function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="center">
               <DropdownMenuItem asChild>
-                <a href="/team">MEET OUR TEAM</a>
+                <Link href="/team">MEET OUR TEAM</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem>CONNECTING CARD</DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <a
+                  href="https://gatewaycaledonia.churchcenter.com/people/forms/657321"
+                  target="_blank"
+                >
+                  CONNECTING CARD
+                </a>
+              </DropdownMenuItem>
               <DropdownMenuItem>JESUS</DropdownMenuItem>
               <DropdownMenuItem>CHRISTMAS 2023</DropdownMenuItem>
             </DropdownMenuContent>
@@ -41,7 +49,9 @@ export function Navbar() {
               <DropdownMenuItem>CALENDAR / EVENTS</DropdownMenuItem>
               <DropdownMenuItem>ADULTS</DropdownMenuItem>
               <DropdownMenuItem>YOUTH</DropdownMenuItem>
-              <DropdownMenuItem>YOUNG ADULTS</DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/youngadults">YOUNG ADULTS</Link>
+              </DropdownMenuItem>
               <DropdownMenuItem>SMALL GROUPS</DropdownMenuItem>
               <DropdownMenuItem>SHALEM PARTNERSHIP</DropdownMenuItem>
               <DropdownMenuItem>SERVE</DropdownMenuItem>
@@ -53,9 +63,14 @@ export function Navbar() {
               <Button variant="ghost">GIVE BACK</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="center">
-              <a href="https://www.canadahelps.org/en/dn/7574" target="blank">
-                <DropdownMenuItem>ONLINE GIVING</DropdownMenuItem>
-              </a>
+              <DropdownMenuItem asChild>
+                <a
+                  href="https://www.canadahelps.org/en/dn/7574"
+                  target="_blank"
+                >
+                  ONLINE GIVING
+                </a>
+              </DropdownMenuItem>
               <DropdownMenuItem>ETRANSFER</DropdownMenuItem>
               <DropdownMenuItem>PRE-AUTHORIZED GIVING</DropdownMenuItem>
               <DropdownMenuItem>MINISTRY INVOLVEMENT</DropdownMenuItem>

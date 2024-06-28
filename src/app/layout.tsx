@@ -36,9 +36,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="p-14 flex flex-col items-center gap-14">
-            {children}
-          </main>
+          <main className="p-14">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

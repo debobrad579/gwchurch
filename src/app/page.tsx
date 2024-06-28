@@ -7,7 +7,7 @@ import YouthLogo from "@/svg/youth-logo.svg"
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col items-center gap-14">
       <div className="w-[450px] flex justify-between">
         <div className="text-5xl font-[1000] text-gblue leading-tight">
           SUNDAY <br /> SERVICE <br /> TIMES
@@ -27,9 +27,9 @@ export default function Home() {
           <div className="col-span-2">
             <h4 className="text-2xl">Attend Onsite Regular Service Times:</h4>
             <p className="text-muted-foreground">
-              8:30, 10:00, and 11:30am.
+              9:00am and 10:45am.
               <br />
-              <em>**Kids Ministry available during first two services.</em>
+              <em>**Kids Ministry available during both services.</em>
             </p>
           </div>
           <Tv2 size={116} className="col-span-1" />
@@ -85,6 +85,6 @@ export default function Home() {
           to find out more.
         </div>
       </div>
-    </>
+    </div>
   )
 }
