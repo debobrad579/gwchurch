@@ -1,14 +1,11 @@
 import YoungAdultsLogo from "@/svg/young-adults-logo.svg"
-import {
-  Facebook,
-  Globe,
-  Instagram,
-  Mail,
-  Phone,
-  Share2,
-  Wifi,
-} from "lucide-react"
+import { Facebook, Instagram, Mail, Phone, Rss } from "lucide-react"
 import { SocialButton } from "../SocialButton"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Young Adults",
+}
 
 export default function YoungAdultsPage() {
   return (
@@ -43,7 +40,7 @@ export default function YoungAdultsPage() {
           <a href="tel:+15199943061">519-994-3061</a>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <Share2 size={50} />
+          <Rss size={50} />
           <div className="flex gap-4">
             <SocialButton href="https://www.facebook.com/groups/381936420445060">
               <Facebook />

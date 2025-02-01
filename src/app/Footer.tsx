@@ -45,21 +45,21 @@ export function Footer() {
             <h3 className="mb-10 text-2xl">CONTACT US</h3>
             <div className="text-muted-foreground space-y-4">
               <a
-                className="group flex items-center gap-4"
+                className="group flex items-center gap-4 w-fit"
                 href="tel:+19057655407"
               >
                 <Phone className="group-hover:animate-shake min-w-12 min-h-12" />
                 <p>905-765-5407</p>
               </a>
               <a
-                className="group flex items-center gap-4"
+                className="group flex items-center gap-4 w-fit"
                 href="https://www.google.ca/maps/place/15+Haldimand+66,+Caledonia,+ON+N3W+1N8/@43.0898938,-79.9454549,16z/data=!3m1!4b1!4m6!3m5!1s0x882c8dbd35cb925b:0xee42be52170d255a!8m2!3d43.0898899!4d-79.94288!16s%2Fg%2F11g0km0qhs?entry=ttu"
               >
                 <MapPin className="group-hover:animate-shake min-w-12 min-h-12" />
                 <p>15 Haldimand Rd. 66 Caledonia, ON N3W 1N7</p>
               </a>
               <a
-                className="group flex items-center gap-4"
+                className="group flex items-center gap-4 w-fit"
                 href="mailto:info@gw.church"
               >
                 <Mail className="group-hover:animate-shake min-w-12 min-h-12" />

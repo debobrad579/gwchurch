@@ -37,7 +37,7 @@ export function Navbar() {
                 </a>
               </DropdownMenuItem>
               <DropdownMenuItem>JESUS</DropdownMenuItem>
-              <DropdownMenuItem>CHRISTMAS 2023</DropdownMenuItem>
+              <DropdownMenuItem>ONLINE DIRECTORY FAQ</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <DropdownMenu>
@@ -48,14 +48,15 @@ export function Navbar() {
               <DropdownMenuItem>SERMONS</DropdownMenuItem>
               <DropdownMenuItem>CALENDAR / EVENTS</DropdownMenuItem>
               <DropdownMenuItem>ADULTS</DropdownMenuItem>
+              <DropdownMenuItem>WOMEN'S MINISTRY</DropdownMenuItem>
               <DropdownMenuItem>YOUTH</DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/youngadults">YOUNG ADULTS</Link>
+                <Link href="/ya">YOUNG ADULTS</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>SMALL GROUPS</DropdownMenuItem>
-              <DropdownMenuItem>SHALEM PARTNERSHIP</DropdownMenuItem>
               <DropdownMenuItem>SERVE</DropdownMenuItem>
               <DropdownMenuItem>TRAINING & EQUIPPING</DropdownMenuItem>
+              <DropdownMenuItem>MEMBERSHIP</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <DropdownMenu>

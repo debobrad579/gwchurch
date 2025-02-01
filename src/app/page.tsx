@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { HomeCard } from "./HomeCard"
 import { Church, Tv2 } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
@@ -12,11 +11,11 @@ export default function Home() {
         <div className="text-5xl font-[1000] text-gblue leading-tight">
           SUNDAY <br /> SERVICE <br /> TIMES
         </div>
-        <div className="text-2xl font-bold mt-32">
-          9:00am <br /> 10:45am
+        <div className="text-2xl font-bold mt-24">
+          8:30am <br /> 10:00am <br /> 11:30am
           <a href="https://live.gw.church/" target="_blank">
             <div className="text-base text-gblue underline">
-              Livestream: 10:45am
+              Livestream: 10:00am
             </div>
           </a>
         </div>
@@ -25,18 +24,18 @@ export default function Home() {
         <HomeCard title="JOIN US ON SUNDAYS">
           <Church size={116} className="col-span-1" />
           <div className="col-span-2">
-            <h4 className="text-2xl">Attend Onsite Regular Service Times:</h4>
+            <h4 className="text-xl">Attend Onsite Regular Service Times:</h4>
             <p className="text-muted-foreground">
-              9:00am and 10:45am.
+              8:30am, 10:00am, and 11:30am
               <br />
-              <em>**Kids Ministry available during both services.</em>
+              <em>**Kids Ministry available during first two services</em>
             </p>
           </div>
           <Tv2 size={116} className="col-span-1" />
           <div className="col-span-2">
-            <h4 className="text-2xl">Watch Live</h4>
+            <h4 className="text-xl">Watch Live</h4>
             <p className="text-muted-foreground">
-              Sundays Online at 10:00am.
+              Sundays Online at 10:00am
               <br />
               Weekly Sunday morning livestream over at{" "}
               <a

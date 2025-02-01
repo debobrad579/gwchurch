@@ -13,6 +13,11 @@ import bren from "@/img/bren.webp"
 import rebecca from "@/img/rebecca.webp"
 import ashley from "@/img/ashley.webp"
 import abbey from "@/img/abbey.webp"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Team",
+}
 
 export default function ContactPage() {
   return (
