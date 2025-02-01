@@ -48,7 +48,7 @@ export function Navbar() {
               <DropdownMenuItem>SERMONS</DropdownMenuItem>
               <DropdownMenuItem>CALENDAR / EVENTS</DropdownMenuItem>
               <DropdownMenuItem>ADULTS</DropdownMenuItem>
-              <DropdownMenuItem>WOMEN'S MINISTRY</DropdownMenuItem>
+              <DropdownMenuItem>WOMEN&apos;S MINISTRY</DropdownMenuItem>
               <DropdownMenuItem>YOUTH</DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link href="/ya">YOUNG ADULTS</Link>
